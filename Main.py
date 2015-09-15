@@ -6,7 +6,7 @@ import csv
 
 trainFile = '../datasets/train.csv'
 testFile = '../datasets/test.csv'
-resultsFile = '../datasets/results_small.csv'
+resultsFile = '../datasets/results.csv'
 
 # Read train set file
 trainSetFromFile = genfromtxt(trainFile, delimiter=',', dtype='string')
